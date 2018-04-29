@@ -136,10 +136,10 @@ main {
 }
 
 .github {
-	display: block;
-	align-self: end;
-	grid-area: github;
-	justify-self: start;
+	position: absolute;
+	bottom: 40px;
+  right: 80px;
+	color: #FFFFFF;
 }
 
 .demos {
@@ -292,8 +292,6 @@ a.demo--current {
 		margin: 0;
 	}
 	.github {
-		display: block;
-		margin: 1em auto;
 	}
 	.codrops-links {
 		margin: 0;
