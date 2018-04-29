@@ -1786,6 +1786,9 @@
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
+		span.proj {
+			color: #45558d;
+		}
 
 	h2 {
 		font-size: 1.2em;

@@ -86,7 +86,7 @@ main {
 	align-items: center;
 	align-content: center;
 	margin: 0 auto;
-	min-height: 100vh;
+	min-height: 70vh;
 }
 
 .content--fixed {
@@ -99,7 +99,7 @@ main {
 	width: 100%;
 	max-width: none;
 	min-height: 0;
-	height: 100vh;
+	height: 70vh;
 	padding: 1.5em;
 	pointer-events: none;
 	grid-template-columns: 50% 50%;

@@ -13,7 +13,7 @@ renderer.setClearColor(0x2E3141);
 var scene = new THREE.Scene();
 
 var camera = new THREE.PerspectiveCamera(100, width / height, 0.1, 10000);
-camera.position.set(120, 0, 200);
+camera.position.set(90, 0, 200);
 
 var light = new THREE.HemisphereLight(0xffffff, 0x0C0532, 0.10);
 scene.add(light);
@@ -36,6 +36,7 @@ var material = new THREE.MeshPhongMaterial({
     shininess: 0
 });
 var shape = new THREE.Mesh(geometry, material);
+
 scene.add(shape);
 
 function updateVertices (a) {
