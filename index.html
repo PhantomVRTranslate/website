@@ -17,6 +17,15 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/base.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/demo3.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<script>
+				function loadModal() {
+					const iframe = document.createElement('iframe');
+					iframe.classList.add('modal');
+					const sectionThree = document.getElementById('three');
+					sectionThree.appendChild(iframe);
+					iframe.setAttribute('src', 'https://phantomvrtranslate.github.io/Phantom-Components-Demo/');
+				}
+			</script>
 	</head>
 	<body>
 		<svg class="hidden">
@@ -73,10 +82,10 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<a href="#" class="image"><img src="https://s3.us-east-2.amazonaws.com/phantom-vr-images/components.png" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Packaged 3D Components</h2>
-										<p>A project envisioned to be a node package module (npm) that allows developers to create web applications in 3D using React VR, a framework for building VR projects using the declarative power of React.</p>
+										<h2 class="major">Packaged React VR Components</h2>
+										<p>We've created and Node.js module that allows developers to create web applications in 3D using React VR</p>
 										<a href="https://www.npmjs.com/package/phantom_components" class="special">See Package</a>
 									</div>
 								</div>
@@ -87,9 +96,10 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Full Documentation</h2>
-										<p>Each component, whether it be text, a video, carousel, or a gallery, among others, is easy to use and is capable of piecing together your application using React VR.</p>
-										<a href="#" class="special">See Docs</a>
+										<h2 class="major">Clonable demo</h2>
+										<p>Create an easy-to-use build with our pre-filled template, streamlining the process even more for you.</p>
+										<a href="https://github.com/PhantomVRTranslate/Phantom-Components-Demo" class="special">Clone it yourself</a>
+										<a onclick="loadModal()" class="special">Give it a try</a>
 									</div>
 								</div>
 							</section>
@@ -97,11 +107,11 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<a class="image"><img src="https://s3.us-east-2.amazonaws.com/phantom-vr-images/unscraped-demo.png" alt="" /></button></a>
 									<div class="content">
 										<h2 class="major">Give it a Try</h2>
-										<p>Why talk about it when you can see for yourself?  Click the link to watch a web page transform into a 3D application.</p>
-										<a href="#" class="special">Go 3D</a>
+										<p>Get a taste of what we're talking about. Click the link to watch a web page transform into a 3D application.</p>	
+										<a onclick="loadModal()" class="special">Go 3D</a>
 									</div>
 								</div>
 							</section>
@@ -130,16 +140,13 @@
 											<a href="#" class="special">Learn more</a>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="https://s3.us-east-2.amazonaws.com/nick-professional/profile.jpg" style="" alt="" /></a>
+											<a href="https://github.com/nwelchr" class="image"><img src="https://s3.us-east-2.amazonaws.com/nick-professional/profile.jpg" style="" alt="" /></a>
 											<h3 class="major">Nick Welch</h3>
 											<p>Nick is a queer developer, linguist, and Aries from Philly who is currently based in SF. Their favorite languages are Javascript and Japanese.</p>
 											<a href="https://github.com/nwelchr" class="special">Git</a>
 										</article>
 
 									</section>
-									<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul>
 								</div>
 							</section>
 
