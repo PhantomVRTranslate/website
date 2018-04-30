@@ -3150,7 +3150,7 @@
 				width: 2.25em;
 			}
 
-		#banner h2 {
+		#banner h2, #banner h3 {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
@@ -3168,6 +3168,9 @@
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
+		}
+
+		#banner h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
@@ -3257,7 +3260,7 @@
 			opacity: 0;
 		}
 
-		body.is-loading #banner h2 {
+		body.is-loading #banner h2, body.is-loading #banner h3 {
 			opacity: 0;
 			-moz-transform: translateX(0.25em);
 			-webkit-transform: translateX(0.25em);
