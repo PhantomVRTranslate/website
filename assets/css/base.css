@@ -67,6 +67,7 @@ a:focus {
 	width: 1.5em;
 	height: 1.5em;
 	margin: 0 auto;
+	margin-top: -100px;
 	fill: currentColor;
 }
 
